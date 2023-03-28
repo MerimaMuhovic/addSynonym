@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alamofire/alamofire",
+      "state" : {
+        "revision" : "f96b619bcb2383b43d898402283924b80e2c4bae",
+        "version" : "5.4.3"
+      }
+    },
+    {
+      "identity" : "appcenter-sdk-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/appcenter-sdk-apple",
+      "state" : {
+        "revision" : "6d60d2361445e959b4fbb3a9d0dbae0e07eead1a",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "bond",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DeclarativeHub/Bond",
+      "state" : {
+        "revision" : "146943c0bc03a93c48fb6c57db4e39f4b38ba74b",
+        "version" : "7.8.1"
+      }
+    },
+    {
+      "identity" : "differ",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tonyarnold/Differ.git",
+      "state" : {
+        "revision" : "4c3eb4d76ad5c14075829397a5741b0badb08dce",
+        "version" : "1.4.5"
+      }
+    },
+    {
+      "identity" : "plcrashreporter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/PLCrashReporter.git",
+      "state" : {
+        "revision" : "d747ab5de269cd44022bbe96ff9609d8626694ab",
+        "version" : "1.9.0"
+      }
+    },
+    {
+      "identity" : "reactivekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DeclarativeHub/ReactiveKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "57a902a1b4f7aeafcb7b5cfec0c15635d0fd2b63"
+      }
+    },
+    {
+      "identity" : "realm-cocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-cocoa",
+      "state" : {
+        "revision" : "77658519b13388c098a7624a94491738f8bb2983",
+        "version" : "10.10.0"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "95da0df7815d7cbaff14ed5e8b73fe4c2a992816",
+        "version" : "11.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}
