@@ -29,7 +29,6 @@ class RegistrationViewModel: AppViewModel {
         self.word = word
         self.synonyms.value = synonymsForWord(word)
         synonymsDidUpdate.send()
-        print(word)
     }
     
     func synonymsForWord(_ word: String) -> [String: [String]] {
@@ -53,16 +52,12 @@ class RegistrationViewModel: AppViewModel {
                 UserDefaults.standard.set(synonymsForKey, forKey: word)
                 synonyms.value = synonymsForWord(word)
                 synonymsDidUpdate.send()
-                print("Synonym added: \(synonym) to word: \(word)")
-                print("Updated synonyms: \(synonyms.value)")
             }
         } else {
             // If the word does not have any synonyms yet, create a new dictionary entry with the word and the new synonym
             UserDefaults.standard.set([synonym], forKey: word)
             synonyms.value = synonymsForWord(word)
             synonymsDidUpdate.send()
-            print("Synonym added: \(synonym) to new word: \(word)")
-            print("Updated synonyms: \(synonyms.value)")
         }
     }
     
@@ -80,8 +75,6 @@ class RegistrationViewModel: AppViewModel {
         }
         synonyms.value = synonymsForWord(word)
         synonymsDidUpdate.send()
-        print("Synonym removed: \(synonym) from word: \(word)")
-        print("Updated synonyms: \(synonyms.value)")
     }
 
 }
